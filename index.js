@@ -39,6 +39,7 @@ app.get('/', (req, res) => {
 <input id="secret" type="password">
 <button id="panel">Go to AriaNg panel</button>
 <button id="downloads">View downloaded files</button>
+<a href="https://drive.google.com/drive/folders/1sloI_EngeIQTllxCo_9dbRAOsNMN5d2J">Gdrive Downloads</a>
 <script>
 panel.onclick=function(){
 	open('/ariang/#!/settings/rpc/set/wss/'+location.hostname+'/443/jsonrpc/'+btoa(secret.value),'_blank')
