@@ -38,7 +38,7 @@ app.get('/', (req, res) => {
 <label for="secret">Enter your aria2 secret:</label>
 <input id="secret" type="password">
 <button id="panel">Go to AriaNg panel</button>
-<button id="downloads">View downloaded files</button>
+<button id="downloads">View downloaded files</button><br><br>
 <a href="https://drive.google.com/drive/folders/1sloI_EngeIQTllxCo_9dbRAOsNMN5d2J">Gdrive Downloads</a>
 <script>
 panel.onclick=function(){
