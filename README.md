@@ -22,3 +22,4 @@ others entries...
 4. Replace all linebreaks with `\n`
 5. Deploy with the button above, and paste that text in `RCLONE_CONFIG`
 6. Set `RCLONE_DESTINATION` to a path you want to store your downloaded files.
+"# mytor" 
